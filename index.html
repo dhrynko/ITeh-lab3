@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабораторная работа &numero;3</title>
+</head>
+<body>
+    <div class="form">
+        <h2>Введите диапазон чисел</h2>
+        <label for="min">min</label>
+        <input type="text" id="min" required>
+        <label for="max">max</label>
+        <input type="text" id="max" required>
+    </div>
+    <button type="submit" onclick="render()">Создать таблицу</button>
+    <div id="table-holder"></div>
+</body>
+<script src="script.js"></script>
+</html>
